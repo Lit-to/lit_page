@@ -35,9 +35,10 @@ module.exports = {
     // portはブラウザからアクセスするときのポート番号、
     // hotOnlyはファイルを更新したときに自動読み込みをする設定
     devServer: {
-        contentBase: path.join(__dirname, "public/"),
-        port: 8080,
-        hotOnly: true
+        static: {
+            directory: path.resolve(__dirname, "public/"),
+        }, port: 8080,
+        hot: true
     },
     plugins: [new webpack.HotModuleReplacementPlugin()]
 };
