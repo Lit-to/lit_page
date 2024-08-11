@@ -26,4 +26,10 @@
         -   アカウント名を設定できること
         -   アカウントidを設定できること(被りはNG)
         -   BIOが書けること
-        -   
+-   
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\\node_modules\\.bin\\webpack-dev-server
+
+
+
