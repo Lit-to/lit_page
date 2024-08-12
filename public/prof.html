@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>プロフィールページ</title>
+    <link href="root.css" type="text/css" rel="stylesheet" />
     <link href="prof.css" type="text/css" rel="stylesheet" />
+    <link href="toggle.css" type="text/css" rel="stylesheet" />
+
 
 </head>
+
 <body>
     <div class="sidebar">
         <ul>
             <li>ホーム</li>
-            <li>DM</li>
+            <li>伝書鳩</li>
             <li>プロフィール</li>
             <li>設定</li>
         </ul>
+        <div class="theme-toggle">
+            <label>
+                ☽
+                <!-- ライトモード -->
+                <input type="checkbox" id="theme-toggle" value=false>
+                <span class="switch slider"></span>
+                <!-- ダークモード -->
+            </label>
+        </div>
     </div>
     <div class="profile-content">
         <div class="profile-header">
@@ -41,5 +55,7 @@
             <p>さらに別の投稿がここに表示されます。</p>
         </div>
     </div>
+    <script src="toggle.js"></script>
 </body>
+
 </html>

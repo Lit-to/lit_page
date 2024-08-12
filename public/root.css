@@ -1,0 +1,17 @@
+:root{
+    --theme-color:#1DA1F2;
+    --text-color:#333;
+    --bg-color:#f5f8fa;
+    --up-color:white;
+    --shadow:rgba(0, 0, 0, 0.3);
+    --thin-color:#657786;
+}
+:root .dark-mode{
+    --theme-color:#0d95e8;
+    --text-color:#f5f5f5;
+    --bg-color:#1e1e1e;
+    --up-color:#2d2d2d;
+    --thin-color:#657786;
+    --shadow:rgba(255, 255, 255, 0.3);
+}
+
