@@ -60,7 +60,9 @@ body {
     background-color: #0d95e8;
 }
 .theme-toggle {
+    width:100px;
+    height:40px;
     position: absolute;
     top: 20px;
-    right: 100px;
+    right:0px;
 }

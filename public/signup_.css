@@ -59,11 +59,13 @@ body {
 .form-group input[type="submit"]:hover {
     background-color: #0d95e8;
 }
-.theme-toggle {
+/* .theme-toggle {
     position: absolute;
     top: 20px;
     right: 100px;
-}/*
+} */
+
+/*
 .theme-toggle label {
     display: flex;
     align-items: center;

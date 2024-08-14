@@ -1,0 +1,36 @@
+.sidebar {
+    transition: .4s;
+    position: relative;
+    width: 20%;
+    background-color: var(--theme-color);
+    color: var(--bg-color);
+    padding: 20px;
+    box-sizing: border-box;
+    left: 0px
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.humburger-menu {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 80%;
+    font-size: 50px;
+    cursor: pointer;
+}
+.right-sidebar {
+    width: 20%;
+    background-color: #e1e8ed;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}

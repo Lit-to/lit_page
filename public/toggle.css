@@ -3,7 +3,7 @@
 .theme-toggle {
     position: relative;
     top: 0px;
-    right: 0px;
+    right: 20px;
 }
 .theme-toggle label {
     display: flex;
@@ -14,6 +14,7 @@
 }
 .theme-toggle input {
     display: none;
+    padding-left:10px;
 }
 .switch {
     position: relative;

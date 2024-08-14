@@ -6,18 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twitter風SNS</title>
     <link href="root.css" type="text/css" rel="stylesheet" />
+    <link href="sidebar.css" type="text/css" rel="stylesheet" />
+    <link href="toggle.css" type="text/css" rel="stylesheet" />
     <link href="twitter.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="sidebar">
-        <ul>
-            <li>ホーム</li>
-            <li>DM</li>
-            <li>プロフィール</li>
-            <li>設定</li>
-        </ul>
-    </div>
     <div class="main-content">
         <div class="post-form">
             <textarea placeholder="生きてて楽しい？" rows="3"></textarea>
@@ -33,9 +27,29 @@
             <p>ユーザーC: 今日はいい天気ですね。</p>
         </div>
     </div>
-    <div class="right-sidebar">
-        <p>ここに追加のウィジェットやコンテンツが表示されます。</p>
+    <div class="sidebar" style="left:-15%">
+        <div class="humburger-menu">
+            <div class="hamburger-icon">&#9776;</div>
+        </div>
+        <ul>
+            <li>ホーム</li>
+            <li>通知</li>
+            <li>メッセージ</li>
+            <li>プロフィール</li>
+            <li>設定</li>
+        </ul>
+        <div class="theme-toggle">
+            <label>
+                <input type="checkbox" id="theme-toggle" value=false>
+                <span class="switch slider"></span>
+            </label>
+
+        </div>
     </div>
+    <!-- <div class="right-sidebar">
+        <p>ここに追加のウィジェットやコンテンツが表示されます。</p>
+    </div> -->
+    <script src="toggle.js"></script>
 </body>
 
 </html>
